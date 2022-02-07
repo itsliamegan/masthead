@@ -1,0 +1,17 @@
+websites
+========
+
+Build static websites from files on disk.
+
+Usage - CLI
+-----------
+
+	$ websites create blog # create a new site named "blog" in the current directory
+	$ websites build       # build the site in the current directory
+
+Installation
+------------
+
+1. `git clone` the repository
+2. Run `pip install -e .` in the repository's directory
+3. Use the `bin/websites` binary
